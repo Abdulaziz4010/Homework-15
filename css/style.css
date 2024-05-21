@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0px 120px;
+  /* height: 100vh; */
+}
+
+.logo-box {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 120px;
+  padding-right: 130px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.23);
+}
+
+.logo-box img {
+  width: 100px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+  font-family: libre "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav ul li a:hover {
+  color: gray;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+
+/* hero section */
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  padding: 50px 0px;
+  gap: 20px;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-img-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.hero-img-desc h1 {
+  font-size: 45px;
+  font-family: "tenor sans";
+  font-weight: 100;
+}
+
+.hero-section h6 {
+  font-family: libre "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(128, 128, 128, 0.449);
+  font-size: 15px;
+}
+
+.hero-title {
+  width: 70%;
+  font-weight: 400;
+  color: gray;
+  font-family: Source Serif Pro;
+}
+
+.by {
+  color: #000000;
+  font-weight: 800;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+/* hero box */
+
+.hero-box {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  gap: 20px;
+  font-family: tenor sans;
+  flex-wrap: wrap;
+}
+
+.usa-img {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.usa-desc {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.usa-desc h4 {
+  font-size: 10px;
+  color: gray;
+  font-weight: 100;
+}
+.usa-desc h2 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.usa-desc p {
+  color: #000000;
+  font-weight: 800;
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+/* food img */
+
+.food-img {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.food-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.food-desc h4 {
+  font-size: 10px;
+  color: gray;
+  font-weight: 100;
+}
+
+.food-desc h2 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.food-desc p {
+  color: #000000;
+  font-weight: 800;
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+.line {
+  margin-top: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.299);
+}
+
+/* latest-posts */
+
+.latest-posts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0px;
+  font-family: tenor sans;
+  flex-wrap: wrap;
+}
+
+.latest-first-img {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-first-img img {
+  width: 300px;
+}
+
+.latest-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0px;
+}
+
+.latest-desc h4 {
+  font-size: 12px;
+  color: gray;
+}
+
+.latest-desc h2 {
+  width: 80%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.latest-desc p {
+  width: 100%;
+  color: #000000;
+  font-weight: 800;
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+.latest-second {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+
+.latest-btn {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.508);
+}
+
+.latest-btn button {
+  width: 205px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.227);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.latest-btn button:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+/* feutured-posts */
+
+.feutured-posts {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.football-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ps {
+  width: 100%;
+  color: gray;
+  font-weight: 100;
+  font-size: 6px;
+  font-family: sans-serif;
+}
+
+.football {
+  width: 50%;
+  padding: 20px 0px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.football img {
+  width: 625px;
+}
+
+.football-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.football-desc h4 {
+  font-size: 10px;
+  color: gray;
+}
+
+.football-desc p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #000000;
+  font-family: tenor sans;
+}
+
+.football-desc h5 {
+  width: 100%;
+  color: #000000;
+  font-weight: 800;
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  /* height: 100%; */
+  padding-top: 20px;
+  background-color: #141414;
+}
+
+.footer-logo {
+  width: 100%;
+  padding: 40px 120px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.catagories {
+  color: white;
+}
+
+.footer-logo img {
+  cursor: pointer;
+}
+
+.footer-logo p {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.catagories {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  /* justify-content: ; */
+}
+
+.animation-nav {
+  width: 270px;
+  gap: 20px;
+  /* background-color: #fff; */
+}
+
+.animation-nav ul li {
+  /* background-color: white; */
+  padding: 20px 120px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.animation-nav ul li a {
+  color: white;
+  font-family: sans-serif;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search input {
+  width: 200px;
+  height: 48px;
+  padding: 20px 20px;
+}
+
+.input-btn {
+  width: 90px;
+  height: 48px;
+  background-color: #000000;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.cata {
+  padding: 20px 120px;
+  color: gray;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+
+.search-p {
+  color: gray;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.info {
+  color: white;
+  width: 100%;
+  padding: 40px 120px;
+  display: flex;
+  gap: 190px;
+  /* justify-content: space-between; */
+}
+
+.info nav ul li a {
+  color: white;
+}
+
+.inform a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  /* font-weight: 100; */
+}
+
+.inform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.information p {
+  color: gray;
+  font-family: sans-serif;
+  font-size: 12px;
+}
